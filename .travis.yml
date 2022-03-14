@@ -1,0 +1,14 @@
+languaje: python 
+
+python: 
+	- "3.9"
+
+install: 
+	- pip install -r requirements.txt
+
+
+script: 
+	- pycodestyle *py
+	- python3 manage.py test
+	
+	
