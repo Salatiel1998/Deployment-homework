@@ -8,7 +8,7 @@ install:
 
 
 script: 
-	- pycodestyle *py
+	- pycodestyle *.py
 	- python3 manage.py test
 	
 	
